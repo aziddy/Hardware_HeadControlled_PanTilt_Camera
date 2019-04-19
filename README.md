@@ -22,3 +22,5 @@ Super simple project I made while working at MUSE Headband to learn OSC
 
 
 ## Communication Pipeline
+
+MUSE Headband -> Bluetooth Dongle -> Windows PC -> MuseLab (makes local OSC server on the pc) -> OSC server -> Processing (Using OSC lib) -> Serial -> Arduino
